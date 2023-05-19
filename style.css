@@ -1,0 +1,466 @@
+/* @media screen and (max-width:913px) {
+    .payment-form {
+        display: flex;
+        background-color: white;
+        margin: auto;
+        margin-top: 50px;
+        width: 67%;
+        border-radius: 10px;
+        margin-left: 213px;
+    }
+    .noidung {
+        margin-left: 10px;
+        font-size: 8px;
+        font-weight: 600;
+        color: #717372;
+    }
+    .dau{
+        font-size: 14px;
+    }
+    .header-title h1 {
+        margin-left: 243px;
+    }
+    .noidung1 {
+        line-height: 0.7;
+        font-size: 7px;
+        margin-top: 5px;
+        color: #181818d6;
+        font-weight: 600;
+    }
+    .noidung2 {
+        line-height: 0.7;
+        font-size: 7px;
+        margin-top: 5px;
+        color: #4b4b4bd6;
+    }
+    .title{
+        align-items: center;
+    font-size: 8px;
+    display: inline-flex;
+    }
+    .my-input-1 {
+        margin-left: 0px;
+        height: 25px;
+        border-radius: 3px;
+        border: 2px solid #FFBC85;
+        width: 30%;
+    }
+    .btn-momo{
+        margin-left: 23%;
+    }
+    .thanhtoan{
+        margin-left: 18%;
+    }
+} */
+
+@media screen and (max-width:768px){
+    .main{
+        display: block;
+        width: 90%;
+        height: 900px;
+    }
+    .mainleft{
+        margin-left: 5%;
+        width: 100%;
+    }
+    .mainmid {
+        width: 100%;
+        margin-left: 5%;
+    }
+    .mainright {
+        margin-left: 5%;
+        width: 100%;
+    }
+    .popup__content {
+        border-radius: 8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fefefe;
+        padding: 20px;
+        border: 2px solid #565656eb;
+        width: 100%;
+        max-width: 350px;
+    }
+    .popup__content1 {
+        border-radius: 8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fefefe;
+        padding: 20px;
+        border: 2px solid #565656eb;
+        width: 100%;
+        max-width: 350px;
+    }
+    .payment-form {
+        display: flex;
+        background-color: white;
+        margin: auto;
+        margin-top: 50px;
+        width: 80%;
+        border-radius: 10px;
+    }
+    .modal-content .payment-form{
+        display: flex;
+        background-color: white;
+        margin: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .payment-form label {
+        margin-left: 20px;
+        display: block;
+        margin-top: 13px;
+        font-weight: bold;
+    }
+    .payment-left-text {
+        color: #f4650b;
+        font-size: 13px;
+    }
+    .payment-form button[type="submit"] {
+        padding: 10px;
+        background-color: #0d0a37;
+        color: #f4650b;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 4%;
+    }
+    .payment-right {
+       
+        width: 70%;
+    }
+    .payment-right-quet {
+        font-weight: 600;
+        text-align: center;
+        font-size: 13px;
+        color: #9d0756;
+    }
+    .dang-ky {
+        font-weight: 600;
+        font-size: 19px;
+        margin: 2% 32% 2% 33%;
+        width: 40%;
+        height: 33px;
+        border-radius: 5px;
+        border-color: #9d0756;
+        color: #9d0756;
+    }
+    .body-payment-hr {
+        margin-left: 18px;
+        margin-top: 20px;
+        width: 88%;
+        color: #aba1a1;
+        size: 5px;
+    }
+}
+@media screen and (max-width: 415px){
+    .payment-form {
+        margin-left: 0;
+    }   
+    .payment-left {
+        font-weight: bold;
+        border-radius: 10px 0 0 10px;
+        background-color: #0d0a37;
+        width: 27%;
+    }
+    .payment-right {
+        width: 50%;
+    }
+    .header-title h1 {
+        position: absolute;
+        top: 105px;
+        color: #FF6211;
+        margin-left: 47px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .noidung1 {
+        line-height: 0.7;
+        font-size: 10px;
+        margin-top: 5px;
+        color: #181818d6;
+        font-weight: 600;
+    }
+    .noidung2 {
+        line-height: 0.7;
+        font-size: 10px;
+        margin-top: 5px;
+        color: #4b4b4bd6;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .prince-1{
+        font-size: 14px;
+    }
+    .prince-p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 394px) {
+    .noidung1{     
+        font-size: 10px;
+    }
+    .btn-xoa {
+        background-color: #fefefe;
+        border: none;
+        color: #ff630e;
+        margin-top: 116px;
+    }
+    .noidung2 {
+        line-height: 0.7;
+        font-size: 10px;
+        margin-top: 5px;
+        color: #4b4b4bd6;
+    }
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 41%;
+    }
+    .my-input-1 {
+        margin-left: 46px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 26%;
+    }
+    #country {
+        margin-left: 10px;
+        height: 27px;
+        padding: 5px;
+        font-size: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 36%;
+    }
+    .btn-momo {
+        box-shadow: 0px 0px 6px 3px #AAA;
+        border-color: #ffffff51;
+        border-radius: 5px;
+        margin-left: 30%;
+    }
+    .thanhtoan {
+        margin-top: 10px;
+        width: 200px;
+        height: 40px;
+        margin-left: 26%;
+        background-color: rgb(96, 221, 96);
+        border-radius: 5px;
+    }
+    .dang-ky {
+        font-weight: 600;
+        font-size: 19px;
+        margin: 2% 32% 3% 14%;
+        width: 77%;
+        height: 33px;
+        border-radius: 5px;
+        border-color: #9d0756;
+        color: #9d0756;
+    }
+    .payment-right-img-3 {
+        margin-left: 30%;
+        width: 40%;
+        height: 150px;
+        border-radius: 5px;
+        margin-top: -5%;
+    }
+    .payment-right-use {
+        margin-top: 2px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .payment-form label {
+        margin-left: 10px;
+        display: block;
+        margin-top: 13px;
+        font-weight: bold;
+    }
+    .payment-form{
+        margin-left: 46px;
+    }
+    .payment-left-text-ll {
+        font-weight: 100;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+    .payment-left {
+        font-weight: bold;
+        border-radius: 10px 0 0 10px;
+        background-color: #0d0a37;
+        width: 35%;
+    }
+    .payment-right {
+        width: 68%;
+    }
+    .body-mid-infor-boder-main {
+        display: flex;
+        width: 100%;
+    }   
+    .header-title h1 {  
+        margin-left: 86px;
+        font-size: 30px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 391px){
+    .mainmid-noidung-1 {
+        display: block;
+        margin-left: 19px;
+    }
+    .title {
+        font-size: 13px;
+    }
+    .anhnho {
+        margin: 15px 6px 14px 12px;
+        width: 30%;
+        height: 190px;
+        border-radius: 5px;
+    }
+    .btn-xoa {
+        background-color: #fefefe;
+        border: none;
+        color: #ff630e;
+        margin-top: 175px;
+    }
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 40%;
+    }
+    .my-input-1 {
+        margin-left: 46px;
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 25%;
+    }
+    .header-title h1 {
+        margin-left: 82px;
+        font-size: 30px;
+    }
+    .mainleft {
+        margin-left: 5%;
+        width: 95%;
+    }
+    .body-mid-infor-boder-main {
+        display: flex;
+        width: 95%;
+    }
+    .mainright-text-khung {
+        margin-top: 20px;
+        width: 95%;
+        padding-left: 2%;
+        margin-left: 0px;
+        border: 2px dashed #3f3f3fad;
+        border-radius: 5px;
+        margin-right: 14%;
+    }
+    #country {
+        margin-left: 10px;
+        height: 27px;
+        padding: 5px;
+        font-size: 13px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 30%;
+    }
+    .btn-momo {
+        box-shadow: 0px 0px 6px 3px #AAA;
+        border-color: #ffffff51;
+        border-radius: 5px;
+        margin-left: 27%;
+    }
+    .dang-ky {
+        font-weight: 600;
+        font-size: 19px;
+        margin: 2% 32% 4% 12%;
+        width: 80%;
+        height: 33px;
+        border-radius: 5px;
+        border-color: #9d0756;
+        color: #9d0756;
+    }
+    .payment-form {
+        display: flex;
+        background-color: white;
+        margin: auto;
+        margin-top: 50px;
+        width: 95%;
+        border-radius: 10px;
+    }
+    hr:not([size]) {
+        height: 2px;
+        margin-top: 2px;
+    }
+    .payment-right-quet {
+        margin-top: -10px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 13px;
+        color: #9d0756;
+    }
+    .payment-right-img-3 {
+        margin-left: 33%;
+        width: 32%;
+        height: 150px;
+        border-radius: 5px;
+        margin-top: -5%;
+    }
+    .payment-left-text-ll {
+        font-weight: 100;
+        color: white;
+        font-size: 13px;
+        text-align: center;
+    }
+    .thanhtoan {
+        margin-top: 10px;
+        width: 200px;
+        height: 40px;
+        margin-left: 23%;
+        background-color: rgb(96, 221, 96);
+        border-radius: 5px;
+    }
+    .prince-1{
+        font-size: 14px;
+    }
+    .prince-p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 376px){
+    .title{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1337px) {
+    .my-input {
+        height: 25px;
+        border-radius: 3px;
+        border-color: #ff630e;
+        width: 44%;
+    }
+    .dang-ky {
+        font-weight: 600;
+        font-size: 9px;
+        margin: 2% 32% 2% 33%;
+        width: 40%;
+        height: 33px;
+        border-radius: 5px;
+        border-color: #9d0756;
+        color: #9d0756;
+    }
+}
